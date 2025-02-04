@@ -99,6 +99,11 @@ namespace primeiroSistema
             Console.WriteLine(Convert.ToInt32(meuDouble2));
             Console.WriteLine(Convert.ToString(meuBooleano1));
 
+            //Entrada de dados
+            Console.WriteLine("\n########## Entrada de Dados ##########");
+            Console.WriteLine("Digite seu nome:");
+            string nomeUsuario = Console.ReadLine();
+            Console.WriteLine($"Olá, {nomeUsuario}");
         }
     }
 }
