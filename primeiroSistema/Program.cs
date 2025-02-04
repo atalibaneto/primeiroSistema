@@ -54,7 +54,50 @@ namespace primeiroSistema
             int qtdAlunosCurso = 20;
             Console.WriteLine($"O {nomeCurso} de id {idCurso} inicia {dtInicioCurso} e finaliza {dtFimCurso}, podendo ter {qtdAlunosCurso} alunos na turma.");
 
+            //Variáveis funcionando como operador matemático
+            Console.WriteLine("========== Variáveis ============");
+            int x = 10;
+            int y = 20;
+            Console.WriteLine(x + y);
 
+            //Múltiplas variáveis funcionando como operador matemático
+            Console.WriteLine("========= Múltiplas Variáveis ==========");
+            int x1 = 10, y1 = 20, z1 = 30;
+            Console.WriteLine(x1 + y1 + z1);
+
+            //Atividade 2 - Tipos de dados
+
+            int meuCodigo = 10;
+            double meuSalario = 1000;
+            char minhaInicial = 'G';
+            bool meuBooleano = false;
+            string meuTexto = "Olá TI!";
+
+            Console.WriteLine("======= Tipos de dados =======");
+            Console.WriteLine($"Meu código é: {meuCodigo}, meu salário é: R$ {meuSalario}, A inicial é: {minhaInicial} e a mensagem escrita é: {meuTexto}");
+
+            //Conversão de tipo de dados C#
+
+            int meuInt = 10;
+            double meuDouble = meuInt; //conversão de int para double
+
+            Console.WriteLine(meuInt);
+            Console.WriteLine(meuDouble);
+
+            double meuDouble1 = 10.50;
+            int meuInt1 = (int) meuDouble1; //conversão de double para int
+
+            Console.WriteLine(meuDouble1);
+            Console.WriteLine(meuInt1);
+
+            int meuInt2 = 10;
+            double meuDouble2 = 8.15;
+            bool meuBooleano1 = true;
+
+            Console.WriteLine(Convert.ToString(meuInt2));
+            Console.WriteLine(Convert.ToDouble(meuInt2));
+            Console.WriteLine(Convert.ToInt32(meuDouble2));
+            Console.WriteLine(Convert.ToString(meuBooleano1));
 
         }
     }
