@@ -133,7 +133,47 @@ namespace primeiroSistema
             Console.WriteLine(c * d); //Multiplicação
             Console.WriteLine(c / d); //Divisão
 
+            //Operador de Incremento
+            int w = 10;
+            w++;
+            Console.WriteLine(w);
 
+            //Operador de Decremento
+            int p = 5;
+            p--;
+            Console.WriteLine(p);
+
+            //Operador de atribuição
+            int valorV = 300;
+            valorV += 10;
+            Console.WriteLine(valorV);
+
+            /*Alguns operadores de atribuição 
+             =
+            +=
+            -=
+            *=
+            /=
+            %=
+            
+            */
+
+            //Operador de comparação
+            int u = 5;
+            int v = 6;
+            Console.WriteLine(u > v);
+            /*
+            == igual a
+            != diferente
+            > maior que
+            < menor que
+            >= maior e igual
+            <= menor e igual
+            */
+            Console.WriteLine(u < v);
+            Console.WriteLine(u <= v);
+            Console.WriteLine(u >= v);
+            Console.WriteLine(u != v);
 
 
 
