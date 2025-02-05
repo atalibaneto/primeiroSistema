@@ -104,6 +104,41 @@ namespace primeiroSistema
             Console.WriteLine("Digite seu nome:");
             string nomeUsuario = Console.ReadLine();
             Console.WriteLine($"Olá, {nomeUsuario}");
+
+            /*Atividade 1 - 05/02/2025 
+              Ler e escrever a idade do usuário na tela */
+            Console.WriteLine("\n########## Entrada de Dados - IDADE ##########");
+            Console.WriteLine("Digite sua idade:");
+            int idadeUsuario = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Você tem: {idadeUsuario} anos");
+
+            //outra maneira de armazenar
+            /*string idadeUsuario = Console.ReadLine();
+            Console.WriteLine($"Você tem: {Convert.ToInt32(idadeUsuario)} anos");*/
+
+            Console.WriteLine("\n########## Soma de valores digitados ##########");
+            Console.WriteLine("Digite o primeiro número");
+            int primeiroNumero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número");
+            int segundoNumero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"A soma entre {primeiroNumero} e {segundoNumero} é: {primeiroNumero + segundoNumero}");
+
+            //Operadores Aritméticos (+, -, *, /, %, ++, --)
+
+            int c = 4;
+            int d = 6;
+            Console.WriteLine(c % d); //Módulo (resto da divisão)
+            Console.WriteLine(c + d);
+            Console.WriteLine(c - d);
+            Console.WriteLine(c * d); //Multiplicação
+            Console.WriteLine(c / d); //Divisão
+
+
+
+
+
+
+
         }
     }
 }
